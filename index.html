@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="favicon">
+            <img src="TestLogo.svg" alt="Logo">
+        </div>
+            <div class="home">
+                <img src="home.svg" alt="logo" height="20px" width="20px">
+                <a href="#">Overview</a></div>
+            <div>
+                <img src="group.svg" alt="logo" height="20px" width="20px">
+                <a href="#">Patients</a></div>
+            <div>
+                <img src="schedule.svg" alt="logo" height="20px" width="20px">
+                <a href="#">Schedule</a></div>
+            <div>
+                <img src="message.svg" alt="logo" height="20px" width="20px">
+                <a href="#">Message</a></div>
+            <div>
+                <img src="Transactions.svg" alt="logo" height="20px" width="20px">
+                <a href="#">Transactions</a>
+            </div>
+        <div class="settings">
+            <img src="doctor.png" alt="logo" height="50px" width="50px">
+            <a><b style="color: black;">Dr. Jose Simmons</b><br>General Practitioner</a>
+            <div class="vertical-line"></div>
+            <div class="icons">
+                <img src="settings.svg" alt="Settings" height="30px" width="30px">
+                <img src="3dotsv.svg" alt="3 Dots" height="30px" width="30px">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="patients-list">
+            <div class="patient-search">
+                <div class="patient-info">
+                    <h4>Patients</h4>
+                </div>
+                <img src="search.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat1.png" alt="logo" height="40px" width="40px">
+                    <span><b>Emily Williams</b><br>Female 18</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat2.png" alt="logo" height="40px" width="40px">
+                    <span><b>Ryan Johnson</b><br>Male 45</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat3.png" alt="logo" height="40px" width="40px">
+                    <span><b>Brandon Mitchell</b><br>Male 36</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat4.png" alt="logo" height="40px" width="40px">
+                    <span><b>Jessica Taylor</b><br>Female 28</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat5.png" alt="logo" height="40px" width="40px">
+                    <span><b>Samantha Johnson</b><br>Female 56</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat6.png" alt="logo" height="40px" width="40px">
+                    <span><b>Ashley Martinez</b><br>Female 54</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat7.png" alt="logo" height="40px" width="40px">
+                    <span><b>Olivia Brown</b><br>Female 32</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat8.png" alt="logo" height="40px" width="40px">
+                    <span><b>Tyler Davis</b><br>Male 19</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat9.png" alt="logo" height="40px" width="40px">
+                    <span><b>Kevin Anderson</b><br>Male 30</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat10.png" alt="logo" height="40px" width="40px">
+                    <span><b>Dylan Thompson</b><br>Male 36</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat11.png" alt="logo" height="40px" width="40px">
+                    <span><b>Nathan Evans</b><br>Male 58</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+            <div class="patient-search">
+                <div class="patient-info">
+                    <img src="pat12.png" alt="logo" height="40px" width="40px">
+                    <span><b>Mike Nolan</b><br>Male 31</span>
+                </div>
+                <img src="3dosth.svg" alt="logo" height="25px" width="25px">
+            </div>
+        </div>
+        
+        <div class="graphs">
+            <div class="graph">
+                    <div class="grp">
+                        <h3>Diagnosis History</h3>
+                        <canvas id="lineChart" width="400" height="200"></canvas>
+                    </div>
+                    <div class="pics">
+                        <div class="pic1">
+                            <img src="respiratory rate.svg" alt="respiratory-rate"><br>
+                            <h4>Respiratory Rate</h4>
+                            <p id="blood-pressure">Blood-Pressure</p>
+                        </div>
+                        <div class="pic2">
+                            <img src="temperature.svg" alt="respiratory-rate"><br>
+                            <h4>Temperature</h4>
+                            <p id="temperature">Temperature</p>
+                        </div>
+                        <div class="pic3">
+                            <img src="HeartBPM.svg" alt="respiratory-rate"><br>
+                            <h4>Heart rate</h4>
+                            <p id="heart-bpm">Heart-BPM</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="description">
+                <h2>Diagnostic List</h2>
+                <div class="dg-head">
+                    <div><p>Problem/Diagnosis</p></div>
+                    <div><p>Description</p></div>
+                    <div><p>Status</p></div>
+                </div>
+                <div class="table">
+                    <table cell-padding="5px" cell-spacing="5px">
+                        <tr>
+                            <td>Hypertension</td>
+                            <td>Chronic High Blood Pressure</td>
+                            <td>Under Observation</td>
+                        </tr>
+                        <tr>
+                            <td>Type 2 Diabetes</td>
+                            <td>Insulin resistance and elevated blood sugar</td>
+                            <td>Cured</td>
+                        </tr>
+                        <tr>
+                            <td>Asthma</td>
+                            <td>Recurrent episodes of bronchial constriction</td>
+                            <td>Inactive</td>
+                        </tr>
+                        <tr>
+                            <td>Hypertension</td>
+                            <td>Chronic High Blood Pressure</td>
+                            <td>Under Observation</td>
+                        </tr>
+                        <tr>
+                            <td>Hypertension</td>
+                            <td>Chronic High Blood Pressure</td>
+                            <td>Under Observation</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="patient-detail">
+            <div class="patient-details">
+                <div class="patient-photo">
+                    <img src="pat4.png" alt="patient">
+                    <h4 align="center">Jessica Taylor</h4>
+                </div>
+                <div class="patient-inf">
+                    <div class="patient-search">
+                        <div class="patient-info">
+                            <img src="BirthIcon.svg" alt="logo" height="40px" width="40px">
+                            <span>Date of Birth<br><b>August 23 1996</b></span>
+                        </div>
+                    </div>
+                    <div class="patient-search">
+                        <div class="patient-info">
+                            <img src="FemaleIcon.svg" alt="logo" height="40px" width="40px">
+                            <span>Gender<br><b>Female</b></span>
+                        </div>
+                    </div>
+                    <div class="patient-search">
+                        <div class="patient-info">
+                            <img src="PhoneIcon.svg" alt="logo" height="40px" width="40px">
+                            <span>Contact Info<br><b>(+14)876 9862 263</b></span>
+                        </div>
+                    </div>
+                    <div class="patient-search">
+                        <div class="patient-info">
+                            <img src="PhoneIcon.svg" alt="logo" height="40px" width="40px">
+                            <span>Emergency Contacts<br><b>(+14)456 6784 789</b></span>
+                        </div>
+                    </div>
+                    <div class="patient-search">
+                        <div class="patient-info">
+                            <img src="InsuranceIcon.svg" alt="logo" height="40px" width="40px">
+                            <span>Insurance Provider<br><b>sunrisers health insurance</b></span>
+                        </div>
+                    </div>
+                    <div class="info-button">
+                        <a href="#">show all information</a>
+                    </div>
+                </div>
+            </div>
+            <div class="patient-reports">
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4 style="color: black;">Lab Results</h4><br>
+                    </div>
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>Blood Tests</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>CT scan</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>Radiology Reports</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>X-Rays</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>Urine Test</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>Urine Test</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+                <div class="patient-report">
+                    <div class="patient-rep">
+                        <h4>Urine Test</h4>
+                    </div>
+                    <img src="download.svg" alt="logo" height="25px" width="25px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
